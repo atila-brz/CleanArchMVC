@@ -9,21 +9,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aplication", "Aplication", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{785950D5-47CB-4BE8-BE55-52722DA36DFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMVC.Aplication", "CleanArchMVC.Aplication\CleanArchMVC.Aplication.csproj", "{706904A0-09EA-490C-817F-2E48519ED50D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchMVC.Aplication", "CleanArchMVC.Aplication\CleanArchMVC.Aplication.csproj", "{706904A0-09EA-490C-817F-2E48519ED50D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMVC.Domain", "CleanArchMVC.Domain\CleanArchMVC.Domain.csproj", "{AC9810DD-A9F8-4BA1-AF0E-C24C31BCF2E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchMVC.Domain", "CleanArchMVC.Domain\CleanArchMVC.Domain.csproj", "{AC9810DD-A9F8-4BA1-AF0E-C24C31BCF2E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMVC.Infra.Data", "CleanArchMVC.Infra.Data\CleanArchMVC.Infra.Data.csproj", "{799E8E39-717B-48F4-931F-18066D80DA1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchMVC.Infra.Data", "CleanArchMVC.Infra.Data\CleanArchMVC.Infra.Data.csproj", "{799E8E39-717B-48F4-931F-18066D80DA1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMVC.Infra.IoC", "CleanArchMVC.Infra.IoC\CleanArchMVC.Infra.IoC.csproj", "{70F9CD3B-659B-4E07-B0C5-8DABEFBAC2A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchMVC.Infra.IoC", "CleanArchMVC.Infra.IoC\CleanArchMVC.Infra.IoC.csproj", "{70F9CD3B-659B-4E07-B0C5-8DABEFBAC2A0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{0B4457E0-760B-4517-AF74-250627E2B1FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMVC.WebUI", "CleanArchMVC.WebUI\CleanArchMVC.WebUI.csproj", "{D4BA0234-595E-4E9C-BD42-084676E79B0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchMVC.WebUI", "CleanArchMVC.WebUI\CleanArchMVC.WebUI.csproj", "{D4BA0234-595E-4E9C-BD42-084676E79B0F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{56823733-76CC-4913-9C2F-A31CA7188985}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchMVC.Domain.Test", "CleanArchMVC.Domain.Test\CleanArchMVC.Domain.Test.csproj", "{13C43473-9481-49EF-AB05-C0C2566D421A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchMVC.Domain.Test", "CleanArchMVC.Domain.Test\CleanArchMVC.Domain.Test.csproj", "{13C43473-9481-49EF-AB05-C0C2566D421A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
