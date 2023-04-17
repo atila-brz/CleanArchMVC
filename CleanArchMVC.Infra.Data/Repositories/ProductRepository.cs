@@ -32,7 +32,7 @@ namespace CleanArchMVC.Infra.Data.Repositories
             }
         }
 
-        public async Task<Product> GetProductByIdAsync(int id)
+        public async Task<Product> GetProductByIdAsync(int? id)
         {
             try
             {
@@ -44,7 +44,7 @@ namespace CleanArchMVC.Infra.Data.Repositories
             }
         }
 
-        public async Task<Product> GetProductCategoryAsync(int id)
+        public async Task<Product> GetProductCategoryAsync(int? id)
         {
             try
             {

@@ -47,7 +47,7 @@ namespace CleanArchMVC.Infra.Data.Repositories
             }
         }
 
-        public async Task<Category> GetCategoryByIdAsync(int id)
+        public async Task<Category> GetCategoryByIdAsync(int? id)
         {
             try
             {
