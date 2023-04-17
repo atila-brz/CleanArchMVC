@@ -18,11 +18,13 @@ namespace CleanArchMVC.Aplication.Services
 
         public CategoryService(IMapper mapper, ICategoryRepository categoryRepository)
         {
-            _categoryRepository = categoryRepository;
+            _categoryRepository = categoryRepository ?? 
+                throw new ArgumentNullException(nameof(categoryRepository));
+
             _mapper = mapper;
         }
 
-        public async Task<IEnumerable<CategoryDTO>> GetCategoriesAsync()
+        public async Task<IEnumerable<CategoryDTO>> GetCategoriesAsync() 
         {
             var categoriesEntity = await _categoryRepository.GetCategoriesAsync();
             return _mapper.Map<IEnumerable<CategoryDTO>>(categoriesEntity);

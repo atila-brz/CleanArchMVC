@@ -18,7 +18,9 @@ namespace CleanArchMVC.Aplication.Services
 
         public ProductService(IProductRepository productRepository, IMapper mapper)
         {
-            _productRepository = productRepository;
+            _productRepository = productRepository ?? 
+                throw new ArgumentNullException(nameof(productRepository));
+
             _mapper = mapper;
         }
         public async Task AddAsync(ProductDTO productDTO)
